@@ -1,5 +1,58 @@
-body{background-image: url(./bg.png);}
 
-H1{}
+body {
+    background-image: url(./bg.png);
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
 
-p{}
+h1 {
+    height: 60px;
+    width: 1000px;
+    border: rgb(146, 140, 140) 3px solid;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+}
+
+h2 {
+    padding-left: 10px;
+    border-left: #1fb159 20px solid;
+}
+
+div {
+    background-color: rgb(247, 242, 234);
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+ul {width: 1200px;
+    padding-left: 0;
+}
+
+.box {
+    height: 370px;
+    width: 320px;
+    background-color: bisque;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    margin:20px;
+    float: left;
+}
+
+.box:hover {
+    box-shadow: #000 0 0 5px;
+    
+}
+
+.fram {
+    border: white 10px;
+    border-style: solid;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.tt{
+    clear: both;
+}
